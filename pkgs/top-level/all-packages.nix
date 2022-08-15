@@ -31244,6 +31244,8 @@ with pkgs;
 
   neovide = callPackage ../applications/editors/neovim/neovide { };
 
+  fvim = callPackage ../applications/editors/neovim/fvim { };
+
   neovim-remote = callPackage ../applications/editors/neovim/neovim-remote.nix { };
 
   vis = callPackage ../applications/editors/vis { };
